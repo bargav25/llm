@@ -1,0 +1,21 @@
+# Model settings
+vocab_size: 50257
+context_length: 128
+d_model: 512
+num_heads: 8
+num_layers: 6
+d_ff: 2048
+rope_theta: 10000.0
+
+# Training settings
+batch_size: 32
+num_steps: 10000
+lr_max: 0.001
+lr_min: 0.00001
+warmup_steps: 500
+clip_grad: 1.0
+eval_interval: 500
+save_path: checkpoints/checkpoint.pt
+
+# Data
+data_path: data/train_tokens.pkl
