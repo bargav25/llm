@@ -1,13 +1,13 @@
-vocab_size: 50257
-context_length: 128
+vocab_size: 10000
+context_length: 256
 d_model: 512
-num_heads: 8
-num_layers: 6
-d_ff: 2048
+num_heads: 16
+num_layers: 4
+d_ff: 1344
 rope_theta: 10000.0
 
 batch_size: 32
-num_steps: 10000
+num_steps: 100000
 lr_max: 0.001
 lr_min: 0.00001
 warmup_steps: 500
@@ -15,7 +15,8 @@ clip_grad: 1.0
 eval_interval: 500
 save_path: checkpoints/transformer_checkpoint.pt
 
-train_memmap_path: data/train.memmap
-val_memmap_path: data/val.memmap
+train_memmap_path: /restricted/projectnb/fhs-std-chen/bargav/temp/cs336/bpe/output/train_ids.memmap
+val_memmap_path: /restricted/projectnb/fhs-std-chen/bargav/temp/cs336/bpe/output/valid_ids.memmap
+
 dtype: int32
-data_shape: [10000000]
+data_shape: [4000000]

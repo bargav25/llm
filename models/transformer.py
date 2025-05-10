@@ -1,7 +1,7 @@
 import torch
 from torch import nn 
-from attention import RopeMultiHeadAttention
-from layers import SWIGLU, RMSNorm, Embedding, Linear
+from models.attention import RopeMultiHeadAttention
+from models.layers import SWIGLU, RMSNorm, Embedding, Linear
 
 
 class TransformerBlock(nn.Module):

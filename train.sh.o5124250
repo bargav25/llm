@@ -1,0 +1,405 @@
+[0] Train Loss: 77.2990 | Val Loss: 76.8577 | LR: 0.000000
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[500] Train Loss: 35.9528 | Val Loss: 36.1624 | LR: 0.001000
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[1000] Train Loss: 5.9845 | Val Loss: 6.0156 | LR: 0.001000
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[1500] Train Loss: 5.9312 | Val Loss: 5.8083 | LR: 0.001000
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[2000] Train Loss: 6.0059 | Val Loss: 5.7597 | LR: 0.000999
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[2500] Train Loss: 5.7362 | Val Loss: 5.7142 | LR: 0.000999
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[3000] Train Loss: 5.5924 | Val Loss: 5.5763 | LR: 0.000998
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[3500] Train Loss: 5.5593 | Val Loss: 5.4668 | LR: 0.000998
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[4000] Train Loss: 5.3474 | Val Loss: 5.4621 | LR: 0.000997
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[4500] Train Loss: 5.2176 | Val Loss: 5.2630 | LR: 0.000996
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[5000] Train Loss: 5.1843 | Val Loss: 5.4018 | LR: 0.000995
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[5500] Train Loss: 5.1361 | Val Loss: 5.1028 | LR: 0.000994
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[6000] Train Loss: 5.1139 | Val Loss: 5.2192 | LR: 0.000993
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[6500] Train Loss: 5.0550 | Val Loss: 5.0134 | LR: 0.000991
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[7000] Train Loss: 4.9727 | Val Loss: 5.0023 | LR: 0.000990
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[7500] Train Loss: 4.9176 | Val Loss: 4.8868 | LR: 0.000988
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[8000] Train Loss: 4.8411 | Val Loss: 4.7934 | LR: 0.000986
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[8500] Train Loss: 5.0223 | Val Loss: 4.8052 | LR: 0.000984
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[9000] Train Loss: 4.7809 | Val Loss: 4.7730 | LR: 0.000982
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[9500] Train Loss: 4.6716 | Val Loss: 4.7675 | LR: 0.000980
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[10000] Train Loss: 4.6786 | Val Loss: 4.6769 | LR: 0.000978
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[10500] Train Loss: 4.6360 | Val Loss: 4.7621 | LR: 0.000976
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[11000] Train Loss: 4.6678 | Val Loss: 4.5730 | LR: 0.000973
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[11500] Train Loss: 4.5945 | Val Loss: 4.5325 | LR: 0.000970
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[12000] Train Loss: 4.6620 | Val Loss: 4.4331 | LR: 0.000968
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[12500] Train Loss: 4.5348 | Val Loss: 4.5312 | LR: 0.000965
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[13000] Train Loss: 4.4739 | Val Loss: 4.5773 | LR: 0.000962
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[13500] Train Loss: 4.2686 | Val Loss: 4.4540 | LR: 0.000959
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[14000] Train Loss: 4.3272 | Val Loss: 4.4299 | LR: 0.000956
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[14500] Train Loss: 4.4723 | Val Loss: 4.3406 | LR: 0.000952
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[15000] Train Loss: 4.3808 | Val Loss: 4.3637 | LR: 0.000949
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[15500] Train Loss: 4.2296 | Val Loss: 4.3203 | LR: 0.000946
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[16000] Train Loss: 4.0892 | Val Loss: 4.3323 | LR: 0.000942
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[16500] Train Loss: 4.2148 | Val Loss: 4.2611 | LR: 0.000938
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[17000] Train Loss: 4.1459 | Val Loss: 4.2543 | LR: 0.000934
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[17500] Train Loss: 4.1486 | Val Loss: 4.2185 | LR: 0.000930
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[18000] Train Loss: 4.0671 | Val Loss: 4.1820 | LR: 0.000926
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[18500] Train Loss: 4.2741 | Val Loss: 4.1502 | LR: 0.000922
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[19000] Train Loss: 4.0943 | Val Loss: 4.0358 | LR: 0.000918
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[19500] Train Loss: 3.9418 | Val Loss: 4.1986 | LR: 0.000914
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[20000] Train Loss: 4.0544 | Val Loss: 4.2387 | LR: 0.000909
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[20500] Train Loss: 4.0838 | Val Loss: 4.0633 | LR: 0.000905
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[21000] Train Loss: 3.9783 | Val Loss: 4.0552 | LR: 0.000900
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[21500] Train Loss: 3.9667 | Val Loss: 3.8410 | LR: 0.000895
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[22000] Train Loss: 3.9625 | Val Loss: 4.0061 | LR: 0.000890
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[22500] Train Loss: 3.8575 | Val Loss: 3.9839 | LR: 0.000885
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[23000] Train Loss: 4.0448 | Val Loss: 3.8283 | LR: 0.000880
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[23500] Train Loss: 4.0758 | Val Loss: 3.7809 | LR: 0.000875
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[24000] Train Loss: 3.8510 | Val Loss: 3.9965 | LR: 0.000870
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[24500] Train Loss: 3.8092 | Val Loss: 3.7311 | LR: 0.000865
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[25000] Train Loss: 3.7422 | Val Loss: 3.9109 | LR: 0.000859
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[25500] Train Loss: 3.8485 | Val Loss: 3.8679 | LR: 0.000854
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[26000] Train Loss: 3.8008 | Val Loss: 3.8790 | LR: 0.000848
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[26500] Train Loss: 3.8435 | Val Loss: 3.7711 | LR: 0.000842
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[27000] Train Loss: 3.8904 | Val Loss: 3.8602 | LR: 0.000837
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[27500] Train Loss: 3.7616 | Val Loss: 3.7395 | LR: 0.000831
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[28000] Train Loss: 3.8404 | Val Loss: 3.7980 | LR: 0.000825
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[28500] Train Loss: 3.6404 | Val Loss: 3.6909 | LR: 0.000819
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[29000] Train Loss: 3.7742 | Val Loss: 3.9826 | LR: 0.000813
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[29500] Train Loss: 3.7638 | Val Loss: 3.8719 | LR: 0.000807
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[30000] Train Loss: 3.6990 | Val Loss: 3.8031 | LR: 0.000800
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[30500] Train Loss: 3.6276 | Val Loss: 3.7256 | LR: 0.000794
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[31000] Train Loss: 3.6458 | Val Loss: 3.7283 | LR: 0.000788
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[31500] Train Loss: 3.6607 | Val Loss: 3.6895 | LR: 0.000781
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[32000] Train Loss: 3.4301 | Val Loss: 3.7264 | LR: 0.000775
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[32500] Train Loss: 3.4123 | Val Loss: 3.5774 | LR: 0.000768
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[33000] Train Loss: 3.6501 | Val Loss: 3.6881 | LR: 0.000761
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[33500] Train Loss: 3.5133 | Val Loss: 3.7977 | LR: 0.000755
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[34000] Train Loss: 3.5879 | Val Loss: 3.7205 | LR: 0.000748
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[34500] Train Loss: 3.3503 | Val Loss: 3.5353 | LR: 0.000741
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[35000] Train Loss: 3.4583 | Val Loss: 3.3825 | LR: 0.000734
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[35500] Train Loss: 3.4962 | Val Loss: 3.4295 | LR: 0.000727
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[36000] Train Loss: 3.5377 | Val Loss: 3.5511 | LR: 0.000720
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[36500] Train Loss: 3.4032 | Val Loss: 3.4058 | LR: 0.000713
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[37000] Train Loss: 3.5180 | Val Loss: 3.5927 | LR: 0.000706
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[37500] Train Loss: 3.4630 | Val Loss: 3.5703 | LR: 0.000699
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[38000] Train Loss: 3.5083 | Val Loss: 3.6449 | LR: 0.000692
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[38500] Train Loss: 3.3595 | Val Loss: 3.5437 | LR: 0.000684
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[39000] Train Loss: 3.5615 | Val Loss: 3.5217 | LR: 0.000677
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[39500] Train Loss: 3.3320 | Val Loss: 3.3750 | LR: 0.000670
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[40000] Train Loss: 3.4028 | Val Loss: 3.5979 | LR: 0.000662
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[40500] Train Loss: 3.3137 | Val Loss: 3.4629 | LR: 0.000655
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[41000] Train Loss: 3.3461 | Val Loss: 3.3712 | LR: 0.000648
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[41500] Train Loss: 3.2816 | Val Loss: 3.4477 | LR: 0.000640
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[42000] Train Loss: 3.3032 | Val Loss: 3.4525 | LR: 0.000632
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[42500] Train Loss: 3.2980 | Val Loss: 3.5270 | LR: 0.000625
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[43000] Train Loss: 3.3531 | Val Loss: 3.5026 | LR: 0.000617
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[43500] Train Loss: 3.2192 | Val Loss: 3.4090 | LR: 0.000610
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[44000] Train Loss: 3.3627 | Val Loss: 3.3775 | LR: 0.000602
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[44500] Train Loss: 3.3399 | Val Loss: 3.4734 | LR: 0.000594
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[45000] Train Loss: 3.2349 | Val Loss: 3.4022 | LR: 0.000587
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[45500] Train Loss: 3.1425 | Val Loss: 3.2212 | LR: 0.000579
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[46000] Train Loss: 3.3012 | Val Loss: 3.3739 | LR: 0.000571
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[46500] Train Loss: 3.2332 | Val Loss: 3.3100 | LR: 0.000563
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[47000] Train Loss: 3.2789 | Val Loss: 3.4191 | LR: 0.000556
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[47500] Train Loss: 3.3909 | Val Loss: 3.3499 | LR: 0.000548
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[48000] Train Loss: 3.2510 | Val Loss: 3.3338 | LR: 0.000540
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[48500] Train Loss: 3.2602 | Val Loss: 3.2507 | LR: 0.000532
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[49000] Train Loss: 3.2426 | Val Loss: 3.3070 | LR: 0.000525
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[49500] Train Loss: 3.0990 | Val Loss: 3.2254 | LR: 0.000517
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[50000] Train Loss: 3.2140 | Val Loss: 3.2521 | LR: 0.000509
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[50500] Train Loss: 3.2162 | Val Loss: 3.2573 | LR: 0.000501
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[51000] Train Loss: 3.3091 | Val Loss: 3.5955 | LR: 0.000493
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[51500] Train Loss: 3.1465 | Val Loss: 3.1742 | LR: 0.000485
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[52000] Train Loss: 3.0378 | Val Loss: 3.2939 | LR: 0.000478
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[52500] Train Loss: 3.3269 | Val Loss: 3.1130 | LR: 0.000470
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[53000] Train Loss: 3.2074 | Val Loss: 3.3430 | LR: 0.000462
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[53500] Train Loss: 3.1695 | Val Loss: 3.2928 | LR: 0.000454
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[54000] Train Loss: 3.2051 | Val Loss: 3.1497 | LR: 0.000447
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[54500] Train Loss: 3.1442 | Val Loss: 3.2066 | LR: 0.000439
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[55000] Train Loss: 3.2228 | Val Loss: 3.0877 | LR: 0.000431
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[55500] Train Loss: 3.0703 | Val Loss: 3.3017 | LR: 0.000423
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[56000] Train Loss: 3.1531 | Val Loss: 3.2590 | LR: 0.000416
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[56500] Train Loss: 3.1959 | Val Loss: 3.2381 | LR: 0.000408
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[57000] Train Loss: 3.1602 | Val Loss: 3.3349 | LR: 0.000400
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[57500] Train Loss: 3.0731 | Val Loss: 3.1663 | LR: 0.000393
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[58000] Train Loss: 3.0648 | Val Loss: 3.2278 | LR: 0.000385
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[58500] Train Loss: 3.0478 | Val Loss: 3.3102 | LR: 0.000378
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[59000] Train Loss: 2.9974 | Val Loss: 3.2034 | LR: 0.000370
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[59500] Train Loss: 3.0553 | Val Loss: 3.3419 | LR: 0.000362
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[60000] Train Loss: 3.0925 | Val Loss: 3.2216 | LR: 0.000355
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[60500] Train Loss: 3.1303 | Val Loss: 3.3103 | LR: 0.000348
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[61000] Train Loss: 3.0607 | Val Loss: 3.2821 | LR: 0.000340
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[61500] Train Loss: 3.0133 | Val Loss: 3.2077 | LR: 0.000333
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[62000] Train Loss: 3.0630 | Val Loss: 3.1900 | LR: 0.000326
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[62500] Train Loss: 3.0087 | Val Loss: 2.9478 | LR: 0.000318
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[63000] Train Loss: 2.9608 | Val Loss: 3.1667 | LR: 0.000311
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[63500] Train Loss: 2.9648 | Val Loss: 3.1097 | LR: 0.000304
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[64000] Train Loss: 2.9056 | Val Loss: 2.9773 | LR: 0.000297
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[64500] Train Loss: 3.0219 | Val Loss: 3.1651 | LR: 0.000290
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[65000] Train Loss: 2.9309 | Val Loss: 3.2423 | LR: 0.000283
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[65500] Train Loss: 3.0351 | Val Loss: 3.0734 | LR: 0.000276
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[66000] Train Loss: 3.0265 | Val Loss: 3.0481 | LR: 0.000269
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[66500] Train Loss: 2.9386 | Val Loss: 3.2229 | LR: 0.000262
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[67000] Train Loss: 2.8839 | Val Loss: 2.9504 | LR: 0.000255
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[67500] Train Loss: 2.9875 | Val Loss: 3.1860 | LR: 0.000249
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[68000] Train Loss: 3.0422 | Val Loss: 3.1315 | LR: 0.000242
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[68500] Train Loss: 2.9964 | Val Loss: 3.1052 | LR: 0.000235
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[69000] Train Loss: 3.0483 | Val Loss: 3.1603 | LR: 0.000229
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[69500] Train Loss: 2.9506 | Val Loss: 3.2485 | LR: 0.000222
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[70000] Train Loss: 2.9490 | Val Loss: 3.1447 | LR: 0.000216
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[70500] Train Loss: 2.8882 | Val Loss: 3.1635 | LR: 0.000210
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[71000] Train Loss: 3.0391 | Val Loss: 2.9845 | LR: 0.000203
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[71500] Train Loss: 2.8058 | Val Loss: 3.0855 | LR: 0.000197
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[72000] Train Loss: 2.9428 | Val Loss: 2.9884 | LR: 0.000191
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[72500] Train Loss: 2.9287 | Val Loss: 2.9840 | LR: 0.000185
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[73000] Train Loss: 2.8165 | Val Loss: 3.3199 | LR: 0.000179
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[73500] Train Loss: 2.9752 | Val Loss: 3.0487 | LR: 0.000173
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[74000] Train Loss: 3.0025 | Val Loss: 3.1154 | LR: 0.000168
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[74500] Train Loss: 2.8771 | Val Loss: 3.1426 | LR: 0.000162
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[75000] Train Loss: 3.0423 | Val Loss: 2.9634 | LR: 0.000156
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[75500] Train Loss: 2.8838 | Val Loss: 3.0760 | LR: 0.000151
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[76000] Train Loss: 2.8647 | Val Loss: 3.0973 | LR: 0.000145
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[76500] Train Loss: 2.9353 | Val Loss: 2.8956 | LR: 0.000140
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[77000] Train Loss: 2.9808 | Val Loss: 3.0455 | LR: 0.000135
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[77500] Train Loss: 2.8762 | Val Loss: 2.9871 | LR: 0.000130
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[78000] Train Loss: 2.8582 | Val Loss: 2.9671 | LR: 0.000125
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[78500] Train Loss: 2.8811 | Val Loss: 2.9078 | LR: 0.000120
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[79000] Train Loss: 2.9206 | Val Loss: 3.0501 | LR: 0.000115
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[79500] Train Loss: 2.9839 | Val Loss: 3.0473 | LR: 0.000110
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[80000] Train Loss: 2.8333 | Val Loss: 3.1923 | LR: 0.000105
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[80500] Train Loss: 2.9308 | Val Loss: 3.1586 | LR: 0.000101
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[81000] Train Loss: 2.9292 | Val Loss: 3.0035 | LR: 0.000096
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[81500] Train Loss: 2.8027 | Val Loss: 3.1530 | LR: 0.000092
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[82000] Train Loss: 2.7422 | Val Loss: 3.1015 | LR: 0.000088
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[82500] Train Loss: 2.9175 | Val Loss: 3.0173 | LR: 0.000084
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[83000] Train Loss: 2.8446 | Val Loss: 2.8817 | LR: 0.000080
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[83500] Train Loss: 2.9523 | Val Loss: 3.0874 | LR: 0.000076
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[84000] Train Loss: 2.9154 | Val Loss: 3.2580 | LR: 0.000072
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[84500] Train Loss: 2.9233 | Val Loss: 2.9729 | LR: 0.000068
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[85000] Train Loss: 2.9123 | Val Loss: 3.1247 | LR: 0.000064
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[85500] Train Loss: 3.0984 | Val Loss: 2.9876 | LR: 0.000061
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[86000] Train Loss: 2.8793 | Val Loss: 3.0379 | LR: 0.000058
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[86500] Train Loss: 2.7952 | Val Loss: 3.0565 | LR: 0.000054
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[87000] Train Loss: 2.8796 | Val Loss: 3.0773 | LR: 0.000051
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[87500] Train Loss: 2.8019 | Val Loss: 3.1413 | LR: 0.000048
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[88000] Train Loss: 2.7635 | Val Loss: 3.1207 | LR: 0.000045
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[88500] Train Loss: 2.8291 | Val Loss: 3.1551 | LR: 0.000042
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[89000] Train Loss: 2.8255 | Val Loss: 3.1654 | LR: 0.000040
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[89500] Train Loss: 2.9198 | Val Loss: 3.0574 | LR: 0.000037
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[90000] Train Loss: 2.8734 | Val Loss: 3.0927 | LR: 0.000034
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[90500] Train Loss: 2.9696 | Val Loss: 2.8493 | LR: 0.000032
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[91000] Train Loss: 2.8084 | Val Loss: 3.0505 | LR: 0.000030
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[91500] Train Loss: 2.8984 | Val Loss: 2.9454 | LR: 0.000028
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[92000] Train Loss: 2.9714 | Val Loss: 2.8299 | LR: 0.000026
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[92500] Train Loss: 2.7396 | Val Loss: 2.9418 | LR: 0.000024
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[93000] Train Loss: 2.8545 | Val Loss: 3.1203 | LR: 0.000022
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[93500] Train Loss: 2.7851 | Val Loss: 3.1025 | LR: 0.000020
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[94000] Train Loss: 2.9575 | Val Loss: 3.0963 | LR: 0.000019
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[94500] Train Loss: 2.9234 | Val Loss: 3.1295 | LR: 0.000017
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[95000] Train Loss: 2.8313 | Val Loss: 3.0618 | LR: 0.000016
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[95500] Train Loss: 2.9167 | Val Loss: 3.1449 | LR: 0.000015
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[96000] Train Loss: 2.7663 | Val Loss: 3.1565 | LR: 0.000014
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[96500] Train Loss: 2.7703 | Val Loss: 3.0749 | LR: 0.000013
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[97000] Train Loss: 2.8167 | Val Loss: 3.0323 | LR: 0.000012
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[97500] Train Loss: 2.8908 | Val Loss: 3.0240 | LR: 0.000012
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[98000] Train Loss: 2.8885 | Val Loss: 3.0499 | LR: 0.000011
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[98500] Train Loss: 2.9170 | Val Loss: 3.0912 | LR: 0.000011
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[99000] Train Loss: 2.8416 | Val Loss: 3.0030 | LR: 0.000010
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[99500] Train Loss: 2.8896 | Val Loss: 3.0482 | LR: 0.000010
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[99999] Train Loss: 2.8657 | Val Loss: 2.8671 | LR: 0.000010
+[Checkpoint saved to checkpoints/transformer_checkpoint.pt]
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mneat-night-5[0m at: [34mhttps://wandb.ai/bargav25-boston-university/transformer-lm/runs/no9myzf7[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250510_105609-no9myzf7/logs[0m

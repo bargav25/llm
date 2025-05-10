@@ -1,0 +1,58 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+.venv/
+.llm_env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# PyTorch checkpoints and logs
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+runs/
+wandb_logs/
+*.log
+
+# Weights & Biases
+wandb/
+wandb-debug.log
+wandb-metadata.json
+
+# Tokenized data
+*.memmap
+*.npy
+*.npz
+*.pkl
+*.bin
+
+# Config / cache
+*.yaml~
+*.json~
+.cache/
+output/
+logs/
+
+# VSCode or PyCharm config
+.vscode/
+.idea/
+
+# MacOS and system junk
+.DS_Store
+Thumbs.db
+
+# Shell history in project root
+.bash_history

@@ -2,7 +2,7 @@ import math
 import torch
 from torch import nn
 from einops import einsum, rearrange
-from layers import softmax, Linear
+from models.layers import softmax, Linear
 
 def scaled_dot_product_attention(q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, mask: torch.Tensor = None, device=None, dtype=None) -> torch.Tensor:
     """

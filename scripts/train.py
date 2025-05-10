@@ -9,10 +9,14 @@ import os
 import yaml
 from types import SimpleNamespace
 
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from models.transformer import TransformerLM
-from optim import AdamW
-from utils.data import load_memmap, data_loading, save_checkpoint
-from utils.training import lr_schedule_cosine, gradient_clip, cross_entropy_loss
+from utilities.training import lr_schedule_cosine, gradient_clip, cross_entropy_loss
+from utilities.data_utils import load_memmap, data_loading, save_checkpoint
+from optim.adamw import AdamW
+
 
 def load_config(path: str) -> SimpleNamespace:
     with open(path, 'r') as f:
