@@ -81,7 +81,7 @@ if __name__ == "__main__":
     model)
 
     decode(
-        prompt_text="Long ago there lived a monster",
+        prompt_text="Once upon a time",
         model=model,
         tokenizer=tokenizer,
         temperature=0.8,

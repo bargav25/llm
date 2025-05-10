@@ -54,7 +54,7 @@ llm/
 
 ### 1. Tokenization
 
-You can either any tokenizer from HuggingFace. But I implemented my own BPE which is super faster, because I optimized using parallization and caching. Refer https://github.com/bargav25/fast_bpe
+You can use any tokenizer from HuggingFace. But I implemented my own BPE which is super faster, because I optimized using parallelization and caching. Refer https://github.com/bargav25/fast_bpe
 
 Follow that and it tokenizes your train and validation text into token_ids and store them to `.memmap` files
 
@@ -75,10 +75,15 @@ python scripts/decode.py
 
 ---
 
-I trained my model on Tiny Stories dataset (~2.12 million documents) which took me around 2-3 hours on A100, and the results were pretty great.
+I trained my model on Tiny Stories dataset (~2.12 million documents) which took me around 2-3 hours on A100, and the results were pretty good. I am sure it performs the better when I give it more time.
 
 ![loss_curves](images/loss_curves.png "Loss Curves")
 
+## 🧪 Generated text given the input: "Once upon a time, "
+
+```bash
+Once upon a time, there was a curious boy. The wheat was very old and wanted to take it. He showed it to the other side, but his mom saw him with the toy car.
+```
 
 ## 🧪 Training Tips
 
