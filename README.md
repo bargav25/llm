@@ -22,7 +22,7 @@ This project implements a transformer-based language model **from scratch** — 
 ## 📁 Project Structure
 
 ```
-your_project/
+llm/
 ├── scripts/              # Training and decoding entry points
 │   ├── train.py
 │   └── decode.py
