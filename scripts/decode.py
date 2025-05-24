@@ -14,8 +14,8 @@ def load_config(path: str) -> SimpleNamespace:
         cfg_dict = yaml.safe_load(f)
     return SimpleNamespace(**cfg_dict)
 
-
-def decode(prompt_text, model, tokenizer, temperature=1.0, top_p=0.9, max_new_tokens=100):
+@torch.no_grad()
+def decode(prompt_text, model, tokenizer, temperature=1.0, top_p=0.9, max_new_tokens=200):
     model.eval()
     token_ids = tokenizer.encode(prompt_text)
     token_ids = torch.tensor([token_ids], dtype=torch.long).to(next(model.parameters()).device)
