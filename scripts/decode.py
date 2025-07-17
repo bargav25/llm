@@ -4,10 +4,32 @@ from models.layers import softmax
 from models.tokenizer import BPETokenizer
 from utilities.data_utils import load_checkpoint
 import yaml
+import os
 from models.transformer import TransformerLM
 
 from types import SimpleNamespace
 
+os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
+
+def load_checkpoint(src_path, model, optimizer=None):
+    """
+    Loads model and optionally optimizer state from a checkpoint.
+
+    Args:
+        src_path (str): Path to checkpoint file
+        model (nn.Module): Model to load weights into
+        optimizer (Optimizer, optional): Optimizer to restore
+
+    Returns:
+        int: Iteration number from the checkpoint
+    """
+    checkpoint = torch.load(src_path)
+    state_dict = checkpoint.get('model_state_dict', checkpoint)  # handles both flat and nested
+    stripped_state_dict = {k.replace("module.", ""): v for k, v in state_dict.items()}
+    model.load_state_dict(stripped_state_dict)
+    if optimizer:
+        optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
+    return 
 
 def load_config(path: str) -> SimpleNamespace:
     with open(path, 'r') as f:
@@ -77,8 +99,7 @@ if __name__ == "__main__":
         device=device
     ).to(device)
 
-    load_checkpoint("/restricted/projectnb/fhs-std-chen/bargav/temp/cs336/llm/checkpoints/transformer_checkpoint.pt",
-    model)
+    load_checkpoint("/restricted/projectnb/fhs-std-chen/bargav/temp/cs336/llm/checkpoints_fsdp/fsdp_converted.pt",model)
 
     decode(
         prompt_text="Once upon a time",

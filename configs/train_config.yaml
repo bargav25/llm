@@ -15,8 +15,13 @@ clip_grad: 1.0
 eval_interval: 500
 save_path: checkpoints/transformer_checkpoint.pt
 
+use_amp: false
+
 train_memmap_path: /restricted/projectnb/fhs-std-chen/bargav/temp/cs336/bpe/output/train_ids.memmap
 val_memmap_path: /restricted/projectnb/fhs-std-chen/bargav/temp/cs336/bpe/output/valid_ids.memmap
 
 dtype: int32
 data_shape: [4000000]
+
+ckpt_interval: 10000
+output_dir: checkpoints

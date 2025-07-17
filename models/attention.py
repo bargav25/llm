@@ -34,7 +34,7 @@ def scaled_dot_product_attention(q: torch.Tensor, k: torch.Tensor, v: torch.Tens
     if mask is not None:
         if mask.dim() == 2:
             mask = mask.unsqueeze(0).unsqueeze(0)  # Expand for batch and heads
-        mask = mask.to(dtype=bool, device=device)
+        mask = mask.to(dtype=bool, device=q.device) # Since this is a seperate function, need to pass device
         attention = attention.masked_fill(~mask, float("-inf"))
 
     # Softmax normalization

@@ -54,6 +54,6 @@ def cross_entropy_loss(predicted, target):
     max_values = torch.max(predicted, dim=-1, keepdim=True).values
     logits = predicted - max_values
     log_exp_sums = torch.log(torch.sum(torch.exp(logits), dim=-1))
-    target_logits = logits.gather(dim=1, index=target.unsqueeze(1)).squeeze(-1)
+    target_logits = logits.gather(dim=1, index=target.unsqueeze(1).to(dtype=torch.int64)).squeeze(-1)
     loss = -target_logits + log_exp_sums
     return torch.mean(loss)

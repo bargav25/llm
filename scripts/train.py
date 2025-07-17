@@ -61,7 +61,7 @@ def main():
         for g in optimizer.param_groups:
             g['lr'] = lr
 
-        inputs, targets = data_loading(train_data, cfg.batch_size, cfg.context_length, device)
+        inputs, targets = data_lning(train_data, cfg.batch_size, cfg.context_length, device)
         logits = model(inputs).view(-1, cfg.vocab_size)
         loss = loss_fn(logits, targets.view(-1))
 

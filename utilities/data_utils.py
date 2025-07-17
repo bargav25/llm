@@ -1,6 +1,8 @@
 import os
 import torch
 import numpy as np
+from typing import Tuple, Dict, List
+from torch.utils.data import Dataset
 
 
 # def data_loading(x, batch_size, context_length, device=None):
@@ -24,6 +26,29 @@ import numpy as np
 #     targets = torch.stack([x[i + 1:i + 1 + context_length] for i in starts])
 
 #     return inputs.to(device), targets.to(device)
+
+class MemmapDataset(Dataset):
+
+    def __init__(self, path: str, dtype: str, shape: List[int], context_length: int):
+
+        self.data = np.memmap(path, dtype=dtype, mode='r', shape = tuple(shape))
+        self.context_length = context_length
+        self.shape = shape
+      
+
+    def __len__(self):
+        """ Valid Start Positions """
+        return self.shape[0] - self.context_length - 1
+
+    def __getitem__(self, idx):
+
+        inputs = self.data[idx : idx + self.context_length]
+        targets = self.data[idx+1 : idx + 1 + self.context_length]
+
+        return (torch.tensor(inputs), torch.tensor(targets))
+
+
+
 
 def load_memmap(path, dtype, shape):
     """
